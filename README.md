@@ -1,2 +1,2 @@
-# MAG-150-Thurday
+# Tisa's Project
 MAG-150 Class
