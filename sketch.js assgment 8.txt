@@ -1,0 +1,46 @@
+let img1
+let img2
+let imgTransparent;
+
+
+function preload() {
+  img1 = loadImage('friend 1.jpg');
+  img2 = loadImage('friend.jpg');
+  imgTransparent = loadImage('shane pic.jpg');
+ 
+  
+
+}
+
+
+function setup() {
+  createCanvas(800, 800);
+  textFont('Arial');
+  textSize(32);
+  
+  
+  
+  
+  
+}
+
+function draw() {
+  background(220);
+  
+  image(img1, mouseX, mouseY);
+  
+  image(img2, 300, 200, mouseX / 2, mouseY / 2);
+  
+  image(imgTransparent, mouseX + 300, mouseY + 300);
+  
+ 
+  
+  stroke(0);
+  fill(255, 0, 0);
+  
+  text("Hello, Shane!", 100, 100, 400, 200);
+  
+  
+  
+  
+}
